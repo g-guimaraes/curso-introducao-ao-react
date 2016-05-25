@@ -1,11 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var img = require('./imagem.jpg');
 
 
 var Hello = React.createClass({
   render: function() {
-    return <img src={img} />;
+    return <h1>Hello {this.props.name}</h1>;
   }
 });
 
