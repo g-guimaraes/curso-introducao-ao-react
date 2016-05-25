@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node server.js",
-    "build": "webpack --config webpack.config.production.js"
+    "build": "webpack --config webpack.config.production.js",
+    "storybook": "start-storybook -p 9001"
   },
   "devDependencies": {
+    "@kadira/storybook": "^1.28.1",
     "babel-core": "^6.8.0",
     "babel-eslint": "^6.0.4",
     "babel-loader": "^6.2.4",
